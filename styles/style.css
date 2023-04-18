@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+}
+
+:root{
+    --cinza: #F6F6F6;
+    --azul-borda: #0D99FF;
+}
+
+header.header-container{
+    height: 80px;
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    align-content: space-between;
+    padding: 0 40px;
+    border-bottom: 1px solid var(--azul-borda);
+}
+
+p.header-profissao{
+    font-size: 20px;
+}
+
+p.p_texto{
+    font-size: 23px;
+    height: 50%;
+}
+
+ul.ul-list-links{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+/*section geral*/
+section.section-container{
+    height: 800px;
+    padding: 40px;
+}
+
+/*section 1*/
+section#section_1{
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
