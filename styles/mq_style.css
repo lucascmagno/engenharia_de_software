@@ -43,6 +43,15 @@
         padding: 10px;
     }
 
+    section#section_1{
+        height: 600px;
+    }
+
+    h1{
+        font-size: 2.5em;
+        text-align: center;
+    }
+
     article div.texto{
     
     }

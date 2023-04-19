@@ -32,6 +32,11 @@ p.p_texto{
     height: 50%;
 }
 
+h1{
+    font-size: 4em;
+    text-shadow: 3px 3px 3px black;
+}
+
 hr{
     margin: 30px;
     color: #ddd;
@@ -70,6 +75,12 @@ section.section-container{
 /*section 1*/
 section#section_1{
     background-color: var(--cinza);
+    background-image: url("https://www.shutterstock.com/image-vector/application-smartphone-business-graph-analytics-260nw-1583248045.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
 }
 
 div.texto{
