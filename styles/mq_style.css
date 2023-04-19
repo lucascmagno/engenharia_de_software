@@ -39,9 +39,11 @@
         height: 400px;
         text-align: justify;
         overflow: scroll;
+        border: 1px solid #ddd;
+        padding: 10px;
     }
 
     article div.texto{
-        overflow-y: scroll;
+    
     }
 }
