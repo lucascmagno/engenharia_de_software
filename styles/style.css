@@ -92,12 +92,13 @@ section#section_1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px;
+    gap: 20px;
 }
 
 /*div content das paginas*/
 div.content{
-    height: 200px;
+    height: 300px;
     width: 400px;
     border: 1px solid black;
 }
