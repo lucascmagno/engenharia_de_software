@@ -1,6 +1,36 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    section div.content{
-        width: 400px;
+    section#section_1{
+        background-image: url("../images/fundo_inicio497.png");
+        
+    }
+    header.header-container{
+        display: block;
+    }
+    div.header-profissao{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    ul.ul-list-links{
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    h1.engenharia_software{
+        font-size: 2em;
+    }
+    ul.ul-list-links > li > a{
+        font-size: 18px;
+        text-align: center;
+    }
+    section.section-container{
+        height: 300px;
+    }
+
+    div.content{
+        height: 150px;
     }
 }
