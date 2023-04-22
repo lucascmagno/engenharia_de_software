@@ -11,30 +11,34 @@
 }
 
 header.header-container{
-    height: 80px;
-    width: calc(100% -70px);
-    background-color: var(--cinza);
     display: flex;
+    align-items: center;
     justify-content: center;
     align-items: center;
-    gap: 50%;
-    align-content: space-between;
-    padding: 0 40px;
+    align-content: stretch;
+    width: 100%;
+    width: calc(100% -70px);
+    height: 40px;
+    background-color: var(--cinza);
+    padding: 20px;
     border-bottom: 1px solid var(--azul-borda);
+    position: fixed;
 }
 
-p.header-profissao{
+.header-profissao{
     font-size: 20px;
 }
 
-p.p_texto{
+.p_texto{
     font-size: 23px;
     height: 50%;
 }
 
 h1{
-    font-size: 4em;
-    text-shadow: 3px 3px 3px black;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 5px 5px 5px black;
 }
 
 hr{
@@ -46,6 +50,8 @@ ul.ul-list-links{
     display: flex;
     gap: 15px;
     list-style-type: none;
+    position: sticky;
+    margin-left: 250px;
 }
 
 ul.ul-list-links > li > a{
@@ -58,14 +64,9 @@ ul.ul-list-links > li > a:hover{
     color: #047cd1;
 }
 
-iframe{
-    width: 100%;
-
-}
-
 /*section geral*/
 section.section-container{
-    height: 800px;
+    height: 100vh;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -75,7 +76,7 @@ section.section-container{
 /*section 1*/
 section#section_1{
     background-color: var(--cinza);
-    background-image: url("https://www.shutterstock.com/image-vector/application-smartphone-business-graph-analytics-260nw-1583248045.jpg");
+    background-image: url("../images/fundo_inicio800.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,19 +84,20 @@ section#section_1{
     color: #fff;
 }
 
-div.texto{
+/*Container principal*/
+#container_content{
+    height: 600px;
+    width: calc(100% -70px);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 20px 0 20px;
 }
 
-/*section 2*/
-
-section#section_2{
-    background-color: #fff;
-}
-
-/*section 3*/
-section#section_3{
-    background-color: var(--section03);
+/*div content das paginas*/
+div.content{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
 }
