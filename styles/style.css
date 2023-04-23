@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    color: #1d1d1d;
 }
 
 :root{
@@ -71,6 +72,28 @@ section.section-container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+div.topicos{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.p_topicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 26px;
 }
 
 /*section 1*/

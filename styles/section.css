@@ -1,6 +1,6 @@
 @charset "utf-8";
 *{
-
+    color: #1d1d1d;
 }
 
 :root{
@@ -9,6 +9,10 @@
 /*section geral*/
 section.section-container{
     display: flex;
+}
+
+div.topicos{
+    position: absolute;
 }
 
 /*Section 1*/
@@ -25,7 +29,7 @@ div.texto{
 p.p_texto{
     padding: 3px;
     font-size: 20px;
-    height: 95%;
+    height: 90%;
     text-align: justify;
 }
 
