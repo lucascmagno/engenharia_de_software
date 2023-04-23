@@ -105,6 +105,9 @@ div.content{
     border: 1px solid #ddd;
 }
 
+div.content:hover{
+    border: 1px solid var(--azul-borda);
+}
 div.content img{
     width: 100%;
     height: 100%;
