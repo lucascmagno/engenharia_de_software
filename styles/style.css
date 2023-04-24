@@ -5,6 +5,9 @@
     color: #1d1d1d;
 }
 
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 :root{
     --cinza: #F8F8F8;
     --azul-borda: #0D99FF;
@@ -24,6 +27,7 @@ header.header-container{
     padding: 20px;
     border-bottom: 1px solid var(--azul-borda);
     position: fixed;
+    z-index: 1;
 }
 
 .header-profissao{
@@ -50,7 +54,7 @@ hr{
 ul.ul-list-links{
     display: flex;
     width: 40%;
-    gap: 15px;
+    gap: 20px;
     list-style-type: none;
     position: sticky;
 }
@@ -75,8 +79,17 @@ section.section-container{
 }
 
 div.topicos{
-    position: absolute;
     text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.p_topicos{
+    width: 100%;
+    font-size:27px;
 }
 
 /*section 1*/
@@ -92,8 +105,10 @@ section#section_1{
 
 /*Container principal*/
 #container_content{
+    position: relative;
     height: 600px;
-    width: calc(100% -70px);
+    width: 700px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,6 +121,7 @@ section#section_1{
 
 /*div content das paginas*/
 div.content{
+    position: relative;
     height: 300px;
     width: 400px;
     border: 1px solid #ddd;

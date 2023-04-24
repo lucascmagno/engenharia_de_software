@@ -2,13 +2,20 @@
 *{
     color: #1d1d1d;
 }
-
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 :root{
     --cinza: #F8F8F8;
 }
 /*section geral*/
 section.section-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
 }
 
 div.topicos{
@@ -24,9 +31,9 @@ article{
 }
 div.texto{
     height: 100%;
-    border: 2px solid #ddd;
+    font-size: 20px;
 }
-p.p_texto{
+.p_texto{
     padding: 3px;
     font-size: 20px;
     height: 90%;
@@ -34,10 +41,19 @@ p.p_texto{
 }
 
 div.img{
-    border: 2px solid #ddd;
+
 }
+
+p{
+    line-height: 35px;
+}
+
 div.img img{
     
+}
+
+ul > li, ol > li{
+    margin-bottom: 15px;
 }
 
 h1.h1_section{
