@@ -129,6 +129,7 @@ div.content{
     position: relative;
     height: 300px;
     width: 400px;
+    border: 1px solid #ddd;
 }
 
 div.content:hover{
