@@ -5,8 +5,8 @@
         
     }
     header.header-container{
-        display: block;
         padding-left: 0;
+        height: auto;
     }
     div.header-profissao{
         font-size: 18px;
@@ -14,6 +14,7 @@
         margin-bottom: 10px;
     }
     ul.ul-list-links{
+        display: none;
         margin-left: 0;
         padding-left: 0;
         width: 100%;
@@ -26,7 +27,7 @@
     }
     ul.ul-list-links > li > a{
 
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
     }
     section.section-container{
@@ -39,6 +40,9 @@
     }
     div.content{
         height: 200px;
+    }
+    .titulo_principal{
+        padding-top: 110px;
     }
 }
 
@@ -57,14 +61,14 @@
     }
 
 }
-@media screen and (min-width: 1201px) and (max-width: 3000px){
+@media screen and (min-width: 1201px) and (max-width: 4000px){
 
     #container_content{
-        width: 100%;
+        width: calc(100% - 200px);
     }
 
     div.content{
         height: 300px;
-        width: 500px;
+        max-width: 40%;
     }
 }

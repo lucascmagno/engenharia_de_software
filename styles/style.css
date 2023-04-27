@@ -34,16 +34,14 @@ header.header-container{
     font-size: 20px;
 }
 
+.logo_github{
+    width: 50px;
+    padding-right: 10px;
+}
+
 .p_texto{
     font-size: 23px;
     height: 50%;
-}
-
-h1{
-    width: 100%;
-    text-align: center;
-    font-size: 3.5em;
-    text-shadow: 5px 5px 5px black;
 }
 
 hr{
@@ -119,12 +117,18 @@ section#section_1{
     padding-top: 90px;
 }
 
+.titulo_principal{
+    padding-top: 90px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
 /*div content das paginas*/
 div.content{
     position: relative;
     height: 300px;
     width: 400px;
-    border: 1px solid #ddd;
 }
 
 div.content:hover{
@@ -133,4 +137,12 @@ div.content:hover{
 div.content img{
     width: 100%;
     height: 100%;
+}
+
+footer{
+    border: 1px solid #ddd;
+    border-bottom: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
 }
